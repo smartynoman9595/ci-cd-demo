@@ -25,7 +25,7 @@ pipeline {
             sh 'cd /var/lib/jenkins/workspace/pipeline03 && go-webapp-sample &'
         }
     }
-    
+      
 
   }
 }
