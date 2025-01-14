@@ -22,9 +22,13 @@ pipeline {
     }
     stage('Run') {
         steps {
-            sh 'cd /var/lib/jenkins/workspace/pipeline03 && go-webapp-sample &'
+            sh 'cd /var/lib/jenkins/workspace/full-cicd-go && go-webapp-sample &'
         }
-    }  
+    }
+
+  }
+}
+
       
 
   }
